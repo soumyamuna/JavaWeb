@@ -27,4 +27,8 @@
         <url>http://52.204.135.48:8081/nexus/content/repositories/releases</url>
   </repository>
 </distributionManagement>
-</project>
+	<properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+  </project>	  
